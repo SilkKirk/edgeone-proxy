@@ -31,3 +31,9 @@ yarn-error.log*
 # 本地设置
 .edgeone.dev.vars
 .wrangler.toml 
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+!.edgeone/project.json
+.tef_dist/*
+  
