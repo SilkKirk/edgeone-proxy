@@ -1,0 +1,29 @@
+{
+  "conf": {},
+  "routes": [
+    {
+      "routePath": "/advanced-proxy",
+      "mountPath": "/",
+      "method": "",
+      "module": [
+        "advanced-proxy.js:onRequest"
+      ]
+    },
+    {
+      "routePath": "/",
+      "mountPath": "/",
+      "method": "",
+      "module": [
+        "index.js:onRequest"
+      ]
+    },
+    {
+      "routePath": "/proxy",
+      "mountPath": "/",
+      "method": "",
+      "module": [
+        "proxy.js:onRequest"
+      ]
+    }
+  ]
+}

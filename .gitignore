@@ -1,6 +1,6 @@
 # 依赖目录
 node_modules/
-.edgeone/
+
 
 # 构建输出
 dist/
@@ -31,9 +31,5 @@ yarn-error.log*
 # 本地设置
 .edgeone.dev.vars
 .wrangler.toml 
-# Tencent Cloud EdgeOne
-.env
-.edgeone/*
-!.edgeone/project.json
-.tef_dist/*
+
   
